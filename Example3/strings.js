@@ -1,8 +1,57 @@
 //String
-let singleQuotesString = 'This is a string using single quotes.';
-let doubleQuotesString = "This is a string using double quotes.";
-let backticksString = `This's a string using backticks.`;
-console.log(backticksString)
+let single_quotes_string = 'This is a string using single quotes.';
+console.log(single_quotes_string)
+
+let double_quotes_string = "This is a string using double quotes.";
+console.log(double_quotes_string)
+
+let backticks_string = `This's a string using backticks.`;
+console.log(backticks_string)
+
+
+
+//------------------------------------------------------Inventrory--------------------------------------//
+//String length
+// let product_name = "Washing up liquid";
+// console.log("Length of product name:", product_name.length);
+
+//String to UpperCase
+// let product_name = "Washing up liquid";
+// console.log("Uppercase:", product_name.toUpperCase()); 
+
+//String to LowerCase
+// let product_name = "Washing up liquid";
+// console.log("Lowercase:", product_name.toLowerCase()); 
+
+
+//Concatenates
+// let product_name = 'Washing up liquid ';
+// let product_brand = 'Fairy ';
+// let product_scent = 'Apple';
+// let product_description = product_name.concat(product_brand.concat(product_scent));
+// console.log('Product Description:', product_description);
+
+//Concatenation with + operator:
+// let product_description = product_name + product_brand + product_scent;
+// console.log('Product Description:',product_description);
+
+//Concatenation with Template Literals ( ${} )
+// let product_description = `This product is ${product_name} ยี่ห้อ ${product_brand} กลิ่น ${product_scent}`;
+// console.log('Product Description with ${}:',product_description);
+
+
+//indexOf
+// let product_name = "Washing up liquid";
+// let search_text = "liquid";
+// console.log("Index of 'liquid':", product_name.indexOf(search_text));  // Output: 11
+
+
+//subString
+// let product_name = "Washing up liquid";
+// console.log("Part of name:", product_name.substring(7, 10));  
+
+
+//-----------------------------------------------------------------------------------------------//
 
 //String length
 // const str = 'Hello, World!';

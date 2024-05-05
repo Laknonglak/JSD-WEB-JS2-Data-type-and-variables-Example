@@ -7,10 +7,10 @@ const a = 10;
 const b = 5;
 const c = 7;
 
-console.log(a + b + c); // Output: 15
-console.log(a - b - c); // Output: 5
-console.log(a * b); // Output: 50
-console.log(a / b); // Output: 2
+console.log(a + b + c);
+console.log(a - b - c); 
+console.log(a * b); 
+console.log(a / b); 
 
 console.log(Math.sqrt(25)); // Output: 5 (square root)
 console.log(Math.pow(2, 3)); // Output: 8 (2 raised to the power of 3)
