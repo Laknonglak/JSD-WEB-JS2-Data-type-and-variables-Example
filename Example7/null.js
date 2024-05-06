@@ -1,3 +1,44 @@
+//---------------------------------------------------------Inventory----------------------------------------//
+// variable is declared but has no value assigned to it
+let discount = null;  // No discount applicable
+console.log(discount);
+
+function displayDiscount(discount) {
+    console.log(`The discount is ${discount === null ? 'not applicable' : `${discount}%`}.`);
+}
+
+displayDiscount(discount);
+
+
+//a property of an object doesn't exist or is not applicable
+let product = {
+  product_id: 101,
+  product_name: "Soya Milk",
+  unit_price: null  // Price is not set
+};
+console.log(product.unit_price);
+console.log(`The price for ${product.product_name} is ${product.unit_price === null ? 'not set yet' : `$${product.unit_price}`}.`);
+console.log(`The products quantity in stock: ${product.quantity_in_stock}`) //undifined 
+
+
+
+//array
+let fruit_products = ['apple','banana','mango'];
+//we dicides to remove all friut from stock
+fruit_products = null;
+// Now you can check the state of friut_products
+if (fruit_products === null) {
+  console.log("Your fruit products in stock is empty.");
+} else {
+  console.log("You have fruit in your stock.");
+}
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------------//
 // variable is declared but has no value assigned to it
 let x = null;
 console.log(x); // Output: null

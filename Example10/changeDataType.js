@@ -1,17 +1,27 @@
-// //change data type
-// let x = 123;
-// x = 'JSD';
-// console.log(x);
-// console.log(typeof(x));
+// ------------------------------------------------------Inventory---------------------------------------//
+//change data type
+// let size_quantity = 100;
+// console.log('size_quantity before assign is: ',typeof(size_quantity));
+
+// size_quantity = 'pack of 100';
+// console.log(size_quantity);
+// console.log('size_quantity after assign is: ',typeof(size_quantity));
+
 
 // // Converting a string to a number
-// const myString = "45";
-// const myNumber = Number(myString);
-// console.log(myNumber);
-// console.log(typeof(myNumber));
 
-// Converting a number to a string
-const number = 123;
-const str = String(number);
-console.log(str);
-console.log(typeof(str));
+// let size_quantity = '250'
+// console.log('size_quantity before convert: ',typeof(size_quantity));
+
+// let size_quantityNumber =  parseInt(size_quantity);
+// console.log('size_quantity after convert: ',typeof(size_quantityNumber));
+
+
+
+// //Converting a number to a string
+// let size_quantity = 300;
+// console.log('size_quantity before convert: ',typeof(size_quantity));
+
+// let size_quantityString = toString(size_quantity)
+// console.log('size_quantity after convert: ',typeof(size_quantityString));
+

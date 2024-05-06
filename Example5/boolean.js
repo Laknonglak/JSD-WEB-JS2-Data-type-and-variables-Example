@@ -12,7 +12,7 @@ if (isRaining) {
 }
 
 
-//--------------------Sell concert tickets-------------//
+//--------------------Sell product-------------//
 // Declare a Boolean variable
 let isSoldOut = false;
 
